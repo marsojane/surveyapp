@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="srvapp">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>	
+
+<body>
+	<div class="container-fluid">
+	
+		<div class="srvappheader">
+			SurveyApp Demo
+		</div>		
+		<div class="srvappcontent">
+			<div ng-view></div>		
+        </div>
+        
+	</div>
+	<script type="text/javascript" src="js/lib/angular.js"></script>
+	<script type="text/javascript" src="js/lib/angular-resource.js"></script>
+	<script type="text/javascript" src="js/lib/angular-route.js"></script>
+	<script type="text/javascript" src="app/srvfilters.js"></script>
+	<script type="text/javascript" src="app/srvresource.js"></script>
+    <script type="text/javascript" src="js/srvapp.js"></script>	
+	<script type="text/javascript" src="app/app.js"></script>
+    
+</body>
+
+</html>	
+
